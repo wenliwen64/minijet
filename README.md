@@ -1,6 +1,8 @@
-After you extract all of the files from the compressed package:
-1. Move the xmldoc/ directory out of the current working directory. So the final directory structure will be like:
+0. Extract all files from tarball. You should have Pythia8186 installed on your computer
+
+1. Move the `xmldoc/` directory out of the current working directory. So the final directory structure will be like:
  
+```c++
   +---MiniJet
       |- xmldoc
       |
@@ -9,6 +11,7 @@ After you extract all of the files from the compressed package:
           |- forWong_mixed.cpp 
 	  |- forWong.cpp
           |- other stuff...
+```
 
 2. To compile the main program for Pythia/Pythia(mixing event) run, type `make` under code directory
 
