@@ -1,0 +1,23 @@
+! 1) Settings used in the main program.
+Main:numberOfEvents = 50000        ! number of events to generate (50000)
+Main:timesAllowErrors = 3          ! how many aborts before run stops
+
+! 2) Settings related to output in init(), next() and stat().
+!Init:showChangedSettings = on      ! list changed settings
+!Init:showChangedParticleData = off ! list changed particle data
+!Next:numberCount = 1000            ! print message every n events
+!Next:numberShowInfo = 1000            ! print event information n times
+!Next:numberShowProcess = 1000         ! print process record n times
+!Next:numberShowEvent = 1000           ! print event record n times
+
+! 3) Beam parameter settings. Values below agree with default ones.
+Beams:idA = 2212                   ! first beam, p = 2212, pbar = -2212
+Beams:idB = 2212                   ! second beam, p = 2212, pbar = -2212
+Beams:eCM = 200.                   ! CM energy of collision
+
+! 4) 
+SoftQCD:nonDiffractive = on        ! this is corresponding to SoftQCD:minBias = on 
+
+! 5) Other settings.
+! Tune:ee = 7                         ! Monash 2013 tune
+! Tune:pp = 14                        ! Monash 2013 tune
